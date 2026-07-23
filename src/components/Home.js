@@ -8,40 +8,40 @@ function Home(){
             <div className="row">
                 <div className="col-md-3">
                     <div className="card">
-                        <Link to="/about_course_1"><img src="logo512.png" className="card-img-top" alt="foto"/></Link>
+                        <Link to="/detail/1"><img src="logo512.png" className="card-img-top" alt="foto"/></Link>
                         <div className="card-body">
                             <h5 className="card-title">
-                                <Link to="/about_course_1" className="btn btn-primary">Tytul kursu</Link>
+                                <Link to="/detail/1" className="btn btn-primary">Tytul kursu</Link>
                             </h5>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-3">
                     <div className="card">
-                        <Link to="/about_course_2"><img src="logo512.png" className="card-img-top" alt="foto"/></Link>
+                        <Link to="/detail/2"><img src="logo512.png" className="card-img-top" alt="foto"/></Link>
                         <div className="card-body">
                             <h5 className="card-title">
-                                <Link to="/about_course_2" className="btn btn-primary">Tytul kursu</Link>
+                                <Link to="/detail/2" className="btn btn-primary">Tytul kursu</Link>
                             </h5>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-3">
                     <div className="card">
-                        <a href="#"><img src="logo512.png" className="card-img-top" alt="foto"/></a>
+                        <Link to="/detail/3"><img src="logo512.png" className="card-img-top" alt="foto"/></Link>
                         <div className="card-body">
                             <h5 className="card-title">
-                                <a href="#" className="btn btn-primary">Tytul kursu</a>
+                                <Link to="/detail/3" className="btn btn-primary">Tytul kursu</Link>
                             </h5>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-3">
                     <div className="card">
-                        <a href="#"><img src="logo512.png" className="card-img-top" alt="foto"/></a>
+                        <Link to="/detail/4"><img src="logo512.png" className="card-img-top" alt="foto"/></Link>
                         <div className="card-body">
                             <h5 className="card-title">
-                                <a href="#" className="btn btn-primary">Tytul kursu</a>
+                                <Link to="/detail/4" className="btn btn-primary">Tytul kursu</Link>
                             </h5>
                         </div>
                     </div>
@@ -55,40 +55,40 @@ function Home(){
                 <div className="row">
                     <div className="col-md-3">
                         <div className="card">
-                            <a href="#"><img src="logo512.png" className="card-img-top" alt="foto"/></a>
+                            <Link to="/famous_course_detail/1"><img src="logo512.png" className="card-img-top" alt="foto"/></Link>
                             <div className="card-body">
                                 <h5 className="card-title">
-                                    <a href="#" className="btn btn-primary">Tytul kursu</a>
+                                    <Link to="/famouse_course_detail/1" className="btn btn-primary">Tytul kursu</Link>
                                 </h5>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="card">
-                            <a href="#"><img src="logo512.png" className="card-img-top" alt="foto"/></a>
+                            <Link to="/famous_course_detail/2"><img src="logo512.png" className="card-img-top" alt="foto"/></Link>
                             <div className="card-body">
                                 <h5 className="card-title">
-                                    <a href="#" className="btn btn-primary">Tytul kursu</a>
+                                    <Link to="/famous_course_detail/2" className="btn btn-primary">Tytul kursu</Link>
                                 </h5>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="card">
-                            <a href="#"><img src="logo512.png" className="card-img-top" alt="foto"/></a>
+                            <Link to="/famous_course_detail/3"><img src="logo512.png" className="card-img-top" alt="foto"/></Link>
                             <div className="card-body">
                                 <h5 className="card-title">
-                                    <a href="#" className="btn btn-primary">Tytul kursu</a>
+                                    <Link to="/famous_course_detail/3" className="btn btn-primary">Tytul kursu</Link>
                                 </h5>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="card">
-                            <a href="#"><img src="logo512.png" className="card-img-top" alt="foto"/></a>
+                            <Link to="/famous_course_detail/4"><img src="logo512.png" className="card-img-top" alt="foto"/></Link>
                             <div className="card-body">
                                 <h5 className="card-title">
-                                    <a href="#" className="btn btn-primary">Tytul kursu</a>
+                                    <Link to="/famous_course_detail/4" className="btn btn-primary">Tytul kursu</Link>
                                 </h5>
                             </div>
                         </div>
@@ -103,40 +103,40 @@ function Home(){
             <div className="row">
                 <div className="col-md-3">
                     <div className="card">
-                        <a href="#"><img src="logo192.png" className="card-img-top" alt="foto"/></a>
+                        <Link to="/instructor_detail/1"><img src="logo192.png" className="card-img-top" alt="foto"/></Link>
                         <div className="card-body">
                             <h5 className="card-title">
-                                <a href="#" className="btn btn-info">Instruktor</a>
+                                <Link to="/instructor_detail/1" className="btn btn-info">Instruktor</Link>
                             </h5>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-3">
                     <div className="card">
-                        <a href="#"><img src="logo192.png" className="card-img-top" alt="foto"/></a>
+                        <Link to="/instructor_detail/2"><img src="logo192.png" className="card-img-top" alt="foto"/></Link>
                         <div className="card-body">
                             <h5 className="card-title">
-                                <a href="#" className="btn btn-info">Instruktor</a>
+                                <Link to="/instructor_detail/3" className="btn btn-info">Instruktor</Link>
                             </h5>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-3">
                     <div className="card">
-                        <a href="#"><img src="logo192.png" className="card-img-top" alt="foto"/></a>
+                        <Link to="/instructor_detail/3"><img src="logo192.png" className="card-img-top" alt="foto"/></Link>
                         <div className="card-body">
                             <h5 className="card-title">
-                                <a href="#" className="btn btn-info">Instruktor</a>
+                                <Link to="/instructor_detail/3" className="btn btn-info">Instruktor</Link>
                             </h5>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-3">
                     <div className="card">
-                        <a href="#"><img src="logo192.png" className="card-img-top" alt="foto"/></a>
+                        <Link to="/instructor_detail/4"><img src="logo192.png" className="card-img-top" alt="foto"/></Link>
                         <div className="card-body">
                             <h5 className="card-title">
-                                <a href="#" className="btn btn-info">Instruktor</a>
+                                <Link to="/instructor_detail/4" className="btn btn-info">Instruktor</Link>
                             </h5>
                         </div>
                     </div>
