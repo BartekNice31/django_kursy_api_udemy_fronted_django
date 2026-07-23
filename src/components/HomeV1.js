@@ -1,7 +1,10 @@
+import Home from "./Home";
+
 function HomeV1(){
     return (
         <div className="App">
-            <h3>hello at HomeV1</h3>
+            <Home/>
+            
         </div>
     )
 }
