@@ -1,0 +1,7 @@
+echo "# django_kursy_api_udemy_fronted_django" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/BartekNice31/django_kursy_api_udemy_fronted_django.git
+git push -u origin main
