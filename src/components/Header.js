@@ -31,6 +31,12 @@ function Header(){
                         <li className="nav-item">
                             <Link to="/about" className="nav-link">O nas</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/user_login">Logowanie</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/user_register">Rejestracja</Link>
+                        </li>
                     </ul>
                 </div>
             </div>            
