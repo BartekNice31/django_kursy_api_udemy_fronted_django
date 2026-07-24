@@ -32,10 +32,10 @@ function Header(){
                             <Link to="/about" className="nav-link">O nas</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/user_login">Logowanie</Link>
+                            <Link className="nav-link" to="/login-user">Logowanie</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/user_register">Rejestracja</Link>
+                            <Link className="nav-link" to="/register-user">Rejestracja</Link>
                         </li>
                     </ul>
                 </div>

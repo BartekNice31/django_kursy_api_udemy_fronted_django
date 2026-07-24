@@ -25,27 +25,42 @@ function CourseDetail(){
                 <ul className="list-group list-group-flush">
                     <li className="list-group-item">
                         Wiadomości wstępne
-                        <button className="btn btn-sm btn-secondary float-end">
+                        <span className="float-end">
+                            <span className="me-3">1:30 min</span>
+                            <button className="btn btn-sm btn-secondary float-end">
                             <i className="bi bi-play-circle-fill"></i>
                         </button>
+                        </span>
+                        
                     </li>
                     <li className="list-group-item">
                         Przygotowanie projektu
-                        <button className="btn btn-sm btn-secondary float-end">
-                            <i className="bi bi-play-circle-fill"></i>
-                        </button>
+                        <span className="float-end">
+                            <span className="me-3">1:40 min</span>
+                            <button className="btn btn-sm btn-secondary float-end">
+                                <i className="bi bi-play-circle-fill"></i>
+                            </button>
+                        </span>
+                        
                     </li>
                     <li className="list-group-item">
                         Zaczynamy
-                        <button className="btn btn-sm btn-secondary float-end">
-                            <i className="bi bi-play-circle-fill"></i>
-                        </button>
+                        <span className="float-end">
+                            <span className="me-3">1:10 minut</span>
+                            <button className="btn btn-sm btn-secondary float-end">
+                                <i className="bi bi-play-circle-fill"></i>
+                            </button>
+                        </span>
+                        
                     </li>
                     <li className="list-group-item">
                         Wstep do praktyki
-                        <button className="btn btn-sm btn-secondary float-end">
-                            <i className="bi bi-play-circle-fill"></i>
-                        </button>
+                        <span className="float-end">
+                            <span className="me-3">1:10 minut</span>
+                            <button className="btn btn-sm btn-secondary float-end">
+                                <i className="bi bi-play-circle-fill"></i>
+                            </button>
+                        </span> 
                     </li>
                 </ul>
                 </div>
