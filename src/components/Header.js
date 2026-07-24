@@ -31,12 +31,56 @@ function Header(){
                         <li className="nav-item">
                             <Link to="/about" className="nav-link">O nas</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/login-user">Logowanie</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/register-user">Rejestracja</Link>
-                        </li>
+                        {/* <li className="nav-item dropdown">
+                            <a id="navbarDropdown" href="#" className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                User
+                            </a> 
+                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><Link className="dropdown-item" to="/user-login">Logowanie</Link></li>
+                                <li><Link className="dropdown-item" to="/register-user">Rejestracja</Link></li>
+                                <li><hr className="dropdown-divider"/></li>
+                                <li><Link className="dropdown-item" to="/user-panel">Panel</Link></li>
+                                <li><a href="#" className="dropdown-item">Wyloguj</a></li>
+                            </ul> 
+                        </li>  */}
+                        <li className="nav-item dropdown">
+
+                        <button
+                            id="navbarDropdown" 
+                            className="nav-link dropdown-toggle"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            User
+                        </button>
+
+                        <ul
+                            className="dropdown-menu"
+                            aria-labelledby="navbarDropdown">
+
+                            <li>
+                                <Link className="dropdown-item" to="/login-user">
+                                    Logowanie
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link className="dropdown-item" to="/register-user">
+                                    Rejestracja
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link className="dropdown-item" to="/panel-user">
+                                    Panel
+                                </Link>
+                            </li>
+                            <li>
+                                <a href="#" className="dropdown-item">Wyloguj</a>
+                            </li>
+                        </ul>
+
+                    </li> 
                     </ul>
                 </div>
             </div>            

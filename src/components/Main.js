@@ -14,6 +14,7 @@ import Login from "./Login";
 import Register from "./Register";
 import Logowanie from "./Logowanie";
 import Rejestracja from "./Rejestracja";
+import Panel from "./Panel";
 function Main(){
     return (
         <div>
@@ -27,11 +28,11 @@ function Main(){
                 <Route path="/detail/:course_id" element={<CourseDetail/>}/>
                 <Route path="/instructor_detail/:instructor_id" element={<InstructorDetail/>}/>
                 <Route path="/famous_course_detail/:special_course_id" element={<SpecialCourse/>}/>
-                <Route path="/login-user" element={<Login/>}/>
-                {/* <Route path="/login_user" element={<h1>Logowanie</h1>}/> */}
+                <Route path="/login-user" element={<Login/>}/> 
                 <Route path="/register-user" element={<Register/>}/>
                 <Route path="/logowanie_uzytkownika" element={<Logowanie/>}/>
                 <Route path="/rejestracja_uzytkownika" element={<Rejestracja/>}/>
+                <Route path="/panel-user" element={<Panel/>}/>
             </Routes>
             
             <Footer/>
