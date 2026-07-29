@@ -15,6 +15,8 @@ import Register from "./Register";
 import Logowanie from "./Logowanie";
 import Rejestracja from "./Rejestracja";
 import Panel from "./Panel";
+import MyCourses from "./MyCourses";
+import MyFavouriteCourses from "./MyFavouriteCourses";
 function Main(){
     return (
         <div>
@@ -32,7 +34,10 @@ function Main(){
                 <Route path="/register-user" element={<Register/>}/>
                 <Route path="/logowanie_uzytkownika" element={<Logowanie/>}/>
                 <Route path="/rejestracja_uzytkownika" element={<Rejestracja/>}/>
-                <Route path="/panel-user" element={<Panel/>}/>
+                <Route path="/panel-user" element={<Panel/>}/> 
+                <Route path="/my-courses" element={<MyCourses/>}/>
+                <Route path="/my-favourite-courses" element={<MyFavouriteCourses/>}/>
+                <Route path="/recommended-courses" element={<RecommendedCourses/>}/>
             </Routes>
             
             <Footer/>
